@@ -49,6 +49,7 @@ if response.status_code==200 :
     print("++++++++++++++++++++++++++++++++ End igrediemts ------------------------------------------")
 
     # Get etapes
+    # soup.select(".preparation_etape") aussi possible
     etapes=soup.find_all("td", class_="preparation_etape")
     print("++++++++++++++++++++++++++++++++ Result etapes ------------------------------------------")
     for e in etapes:    
