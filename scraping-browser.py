@@ -1,7 +1,9 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-SBR_WS_CDP = 'wss://brd-customer-hl_fb6b9e4a-zone-scraping_browser1:jsaho5qqqo8k@brd.superproxy.io:9222'
+from personalurl import Personnal
+
+SBR_WS_CDP = Personnal.url_scrapp_brow
 
 
 async def run(pw):
