@@ -6,6 +6,10 @@ url="https://codeavecjonathan.com/scraping/techsport"
 import urllib.request
 opener = urllib.request.build_opener(
     urllib.request.ProxyHandler(
-        {'http': 'http://brd-customer-hl_fb6b9e4a-zone-unblocker:wlh54hu6udp9@brd.superproxy.io:22225',
-        'https': 'http://brd-customer-hl_fb6b9e4a-zone-unblocker:wlh54hu6udp9@brd.superproxy.io:22225'}))
-print(opener.open('http://lumtest.com/myip.json').read())
+        {'http': 'personnal-url-brdata',
+        'https': 'personnal-url-brdata'}))
+
+html=opener.open(url).read().decode('utf-8')
+f=open('web-unlocker.html','w')
+f.write(html)
+f.close()
