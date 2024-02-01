@@ -1,8 +1,8 @@
 import requests;
 
 
-# url="https://codeavecjonathan.com/scraping/techsport"
-url="https://amazon.fr"
+url="https://codeavecjonathan.com/scraping/techsport"
+# url="https://amazon.fr"
 
 def get_element_if_none(e):
     if e:
