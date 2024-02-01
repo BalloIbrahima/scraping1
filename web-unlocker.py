@@ -1,7 +1,7 @@
 import sys
 import ssl
-
 from personalurl import Personnal
+
 ssl._create_default_https_context = ssl._create_unverified_context
 url="https://codeavecjonathan.com/scraping/techsport"
 
