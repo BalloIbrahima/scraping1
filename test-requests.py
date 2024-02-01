@@ -1,8 +1,8 @@
 import requests;
 
 
-url="https://codeavecjonathan.com/scraping/techsport"
-# url="https://amazon.fr"
+# url="https://codeavecjonathan.com/scraping/techsport"
+url="https://amazon.fr"
 
 def get_element_if_none(e):
     if e:
@@ -18,7 +18,7 @@ if response.status_code==200 :
     print("Resultat -------------------")
     print(content)
     # write file on file
-    f=open("tes-request.html",'w')
+    f=open("test-request.html",'w')
     f.write(content)
     f.close()
 
