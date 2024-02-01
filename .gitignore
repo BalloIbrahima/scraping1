@@ -1,11 +1,11 @@
 
 /.vscode
-/.vscode/*
+# /.vscode/*
 /__pycache__
-/__pycache__/*
+# /__pycache__/*
 
-/__pycache__/personalurl.cpython-311.pyc
-/__pycache__/settings.json
+# /__pycache__/personalurl.cpython-311.pyc
+# /.vscode/settings.json
 
 personalurl.txt
 personalurl.py
